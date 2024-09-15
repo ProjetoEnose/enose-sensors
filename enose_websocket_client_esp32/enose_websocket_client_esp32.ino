@@ -5,11 +5,11 @@
 //////////////////////////////////////////////////////////////
 
 //Id e senha da rede
-const char* ssid = "wifi-enose";
-const char* password = "enosesenha";
+const char* ssid = "<ID da rede>";
+const char* password = "<Senha da rede>";
 
 //Ip e porta do websocket
-const char* websocket_server = "192.168.137.1";
+const char* websocket_server = "<IP do servidor Websocket>";
 const int websocket_port = 8765;
 
 WebSocketsClient webSocket;

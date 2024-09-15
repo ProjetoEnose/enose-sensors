@@ -11,10 +11,10 @@ float acumuladosMQ3 = 0;
 float mediaValoresLidosMQ5 = 0;
 float acumuladosMQ5 = 0;
 
-int tempo = 5; //tempo em segundos para o registro de dados
+int tempo = 60; //tempo em segundos para o registro de dados
 int espera = 0; //Tempo em segundos para delay
-float valoresLidosMQ3[5];
-float valoresLidosMQ5[5];
+float valoresLidosMQ3[60];
+float valoresLidosMQ5[60];
 
 //////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////
