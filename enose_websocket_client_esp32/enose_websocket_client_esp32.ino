@@ -9,7 +9,7 @@ const char* ssid = "<ID da rede>";
 const char* password = "<Senha da rede>";
 
 //Ip e porta do websocket
-const char* websocket_server = "<IP do servidor Websocket>";
+const char* websocket_server = "<IP do websocket>";
 const int websocket_port = 8765;
 
 WebSocketsClient webSocket;

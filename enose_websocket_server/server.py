@@ -43,7 +43,7 @@ def message_received(client, server, message):
     server.send_message(client, "Mensagem recebida com sucesso")
 
 # Criação do servidor WebSocket
-server = WebsocketServer(host='<Endereço IP>', port=8765)
+server = WebsocketServer(host='192.168.241.120', port=8765)
 server.set_fn_new_client(new_client)
 server.set_fn_message_received(message_received)
 
